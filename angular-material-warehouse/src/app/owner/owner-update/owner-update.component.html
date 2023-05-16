@@ -1,0 +1,15 @@
+<h2>{{toIncrease ? "Increase" : "Decrease"}} Product Stock Quantity</h2>
+<form [formGroup]="updateForm" (ngSubmit)="saveProductStock()">
+    <mat-form-field class="example-full-width" style="margin-right: 10px;" appearance="fill">
+        <mat-label>Product Id</mat-label>
+        <input matInput formControlName="productId">
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+        <mat-label>Amount to change:</mat-label>
+        <input class="form-control" matInput type="number" formControlName="amount" placeholder="0">
+    </mat-form-field>
+    <div>
+        <button mat-raised-button color="primary">Update</button>
+        <button mat-raised-button mat-dialog-close color="accent">Close</button>
+    </div>
+</form>

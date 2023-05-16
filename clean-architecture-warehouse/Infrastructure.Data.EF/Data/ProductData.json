@@ -1,0 +1,46 @@
+[
+  {
+    "Name": "Banana",
+    "QuantityInStock": 51
+  },
+  {
+    "Name": "Apple",
+    "QuantityInStock": 46
+  },
+  {
+    "Name": "Habanero Pepper",
+    "QuantityInStock": 10
+  },
+  {
+    "Name": "Mango",
+    "QuantityInStock": 25
+  },
+  {
+    "Name": "Pear",
+    "QuantityInStock": 31
+  },
+  {
+    "Name": "Peach",
+    "QuantityInStock": 50
+  },
+  {
+    "Name": "Watermelon",
+    "QuantityInStock": 27
+  },
+  {
+    "Name": "Grape",
+    "QuantityInStock": 100
+  },
+  {
+    "Name": "Lichie",
+    "QuantityInStock": 33
+  },
+  {
+    "Name": "Orange",
+    "QuantityInStock": 58
+  },
+  {
+    "Name": "Pineapple",
+    "QuantityInStock": 8
+  }
+]

@@ -1,0 +1,13 @@
+h2 {
+    margin-left: 10px;
+}
+
+form {
+    overflow-y: hidden;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+form button:not(:first-child) {
+    margin-left: 15px;
+}

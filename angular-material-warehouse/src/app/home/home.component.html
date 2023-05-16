@@ -1,0 +1,19 @@
+<section fxLayout="column" fxFlexAlign="stretch">
+    <div fxFlexAlign="center">
+        <p>Welcome to the Warehouse Master App powered by Angular Material</p>
+    </div>
+
+    <p>These services are offered:</p>
+
+    <mat-tab-group (selectedTabChange)="executeSelectedChange($event)">
+        <mat-tab label="Products Exibition">
+            <p>All beautiful products components created using angular material.</p>
+        </mat-tab>
+        <mat-tab label="Transaction Area">
+            <p>Provide not only Cash and Credit Transactions but also Internal and External Transactions.</p>
+        </mat-tab>
+         <mat-tab label="Contact us">
+            <p>Welcome to contact us for further information and support.</p>
+        </mat-tab>
+    </mat-tab-group>
+</section>
